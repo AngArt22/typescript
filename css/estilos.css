@@ -1,0 +1,13 @@
+.caja{
+    width: 45%;
+    /* border: solid; */
+    /* border-color: red; */
+    margin: 0 auto;
+    
+}
+.caja img{
+    border-radius: 2em;
+    box-shadow: 0 0 0.8em rgb(238, 4, 4);
+    cursor: pointer;
+}
+

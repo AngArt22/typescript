@@ -8,6 +8,20 @@
     <title>DEFINICION DE TYPESCRIPT</title>
 </head>
 <body>
+    <div>
+        <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Definicion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aplicaciones</a>
+            </li>
+        </ul>
+    </div>
+
     <P>Encabezado principal normal:</P>
     <h1>QUE ES TYPESCRIPT</h1>
     <hr>
@@ -59,8 +73,222 @@
             </li>
             <li>This may still come in handy in some situations.</li>
           </ul>
-          <img src="" class="img-fluid" alt="...">
+          <hr>
+          
     </div>
+
+    <div class="container">
+        <p>Imagenes fluidas o Responsive:</p>
+        <img src="imagenes/TS11.jpeg" class="img-fluid" alt="...">
+        <hr>        
+        <p>Imagenes<abbr title="Miniaturas" class="initialism">Thumbnails</abbr>con un ligero borde:</p>
+        <img src="imagenes/TS11.jpeg" class="img-thumbnail" alt="">                               
+    </div>
+    <hr>
+
+    <div>
+        <table class="table table-hover table-bordered border-info table table-warning">TABLA
+            <thead>
+              <tr>
+                <th scope="col">TH-CELDA COLUMNA 1</th>
+                <th scope="col">TH-CELDA COLUMNA 2</th>
+                <th scope="col">TH-CELDA COLUMNA 3</th>
+                <th scope="col">TH-CELDA COLUMNA 4</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr class="table-light">
+                <th scope="row">1</th>
+                <td>TD-FILA 1</td>
+                <td>TD-FILA 2</td>
+                <td>TD-FILA 3</td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr class="table-danger">
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>              
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+        </table>
+
+        <hr>
+    </div>
+
+    <div class="container">
+        <table class="table table-striped table table-dark table-bordered">
+
+            <thead>
+                <tr class="table-warning">
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Apellido</th>
+                  <th scope="col">Handle</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr class="table-danger">
+                  <th>1</th>
+                  <td>Carlos</td>
+                  <td>Correa</td>
+                  <td>@ang</td>
+                </tr>
+
+                <tr class="table-info">
+                    <th>2</th>
+                    <td>Brigith</td>
+                    <td>Rodriguez</td>
+                    <td>@bella</td>
+                </tr>
+                <!-- INICIO DE TABLA INDEXADA -->
+                <!-- Un TR= fila de tabla (table row) define una fila de celdas en una tabla -->
+                <tr class="table-secondary">
+                    <!-- Celda de tabla ( <td> ) define la celda de una tabla que contiene datos -->
+                    <td colspan="4">
+                        <table class="table mb-0">
+                            <thead>
+                                <tr>
+                                    <!-- th define una celda como encabezado de un grupo de celdas en una tabla -->
+                                    <th scope="col">Año</th>
+                                    <th scope="col">Carrera</th>
+                                    <th scope="col">Nota</th>                                    
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr class="table-info">
+                                    <td>2000</td>
+                                    <td>Soltera</td>
+                                    <td>4.5</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>2006</td>
+                                    <td>Mamá</td>
+                                    <td>5.0</td>
+                                </tr>
+                                <tr class="table-info">
+                                    <td>2016</td>
+                                    <td>Administradora</td>
+                                    <td>5.0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <!-- FIN DE TABLA INDEXADA -->
+
+                <tr class="table-danger">
+                    <th>3</th>
+                    <td>Majo</td>
+                    <td>Rodriguez</td>
+                    <td>@mod</td>
+                </tr>
+
+                <tr class="table-info">
+                    <th>4</th>
+                    <td>Jero</td>
+                    <td>Rodriguez</td>
+                    <td>@art</td>
+                  </tr>
+                
+            <tbody>              
+        </table>   
+        
+        <hr>
+    </div>
+
+    <div class="container text-center">
+        <figure class="figure">
+            <img src="imagenes/TS3.jpg" class="figure-img img-fluid rounded" alt="...">            
+            <figcaption class="figure-caption">traida del portal 123.</figcaption>
+        </figure>
+    </div>
+        <hr>
+
+        <div class="container accordion fw-light" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Definicion 1
+                </button>                
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong class="fw-bold">This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Definicion 2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Definicion 3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's <a href="https://www.google.com/?hl=es">accordion body.</a> </strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr>
+
+          <p>Tarjetas:</p>
+        <div class="container card" style="width: 18rem;">            
+            <img src="imagenes/TS4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Contactenos</h5>
+              <p class="card-text">Sera un gusto poder atenderlos.</p>
+              <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" class="btn btn-primary">Contactar</a>
+            </div>
+        </div>
+
+        <hr>
+        
+        <div class="caja">
+            <p>Imagen con Menu Flotante OFFCANVAS</p>
+            <img data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" class="img-fluid" src="imagenes/TS11.jpeg" alt="typescript1">
+        </div>       
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Links de Interes</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <hr>
+
+                <div class="offcanvas-body">   
+                    <ul class="fw-light">
+                        <li><a href="">Amazon</a></li>
+                        <li><a href="">Ebay</a></li>
+                        <li><a href="">Mercadolibre</a></li>                        
+                    </ul>
+                </div>
+                
+            </div>
+
+
 
     
     
