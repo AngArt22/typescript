@@ -1,9 +1,12 @@
+.nav {
+    background: rgb(18, 181, 37) !important;
+}
 .caja{
     width: 45%;
     /* border: solid; */
     /* border-color: red; */
     margin: 0 auto;    
-}
+} 
 .capafondo{
     background: url("fondo.jpg") no-repeat;
     background-size: cover;
@@ -21,4 +24,8 @@
     cursor: pointer;
 }
 
- 
+.derechos{
+    text-align: center;
+    font-weight: bold;
+}
+
