@@ -2,8 +2,18 @@
     width: 45%;
     /* border: solid; */
     /* border-color: red; */
-    margin: 0 auto;
-    
+    margin: 0 auto;    
+}
+.capafondo{
+    background: url("fondo.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.2;
+    filter:saturate(0.3);
+    width: 100%;
+    position: fixed;
+    /* Para que no quede encima de todo, sino de fondo se coloca: */
+    z-index: -1;
 }
 .caja img{
     border-radius: 2em;
@@ -11,3 +21,4 @@
     cursor: pointer;
 }
 
+ 
